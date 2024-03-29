@@ -1,0 +1,1 @@
+sphinx-autobuild -a source build/html --open-browser

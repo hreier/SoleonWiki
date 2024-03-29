@@ -3,7 +3,7 @@
 Welcome to Soleon documentation!
 ================================
 
-This is technical documentation regarding Soleon products
+This is technical documentation for Soleon products
 
 .. toctree::
    :maxdepth: 2
@@ -16,12 +16,14 @@ This is technical documentation regarding Soleon products
 
 .. toctree::
    :maxdepth: 2
-   :caption: Payloads:
+   :caption: Payload:
    :hidden:
    
    payload_intro
    payload_parameter
+   ctrl_modes/index
    guides/index
+   downloads/download
 
 
 .. toctree::
