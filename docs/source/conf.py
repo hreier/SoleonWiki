@@ -7,6 +7,8 @@ import os
 import sys
 from typing import Any, Dict
 
+sys.path.insert(0, os.path.abspath('.'))
+
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -37,6 +39,8 @@ extensions = [
     "sphinx_design",
     "sphinx_inline_tabs",
     "sphinx_toolbox.collapse",
+    # Local stuff
+    'fix-secnum',
 ]
 
 templates_path = ['_templates']

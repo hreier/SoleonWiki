@@ -32,6 +32,8 @@ This is technical documentation for Soleon products
    :hidden:
    
    dev_intro
+   dev_debug
+   
    dev_sphinx
 
 
